@@ -213,6 +213,7 @@ func setUpAppConfig() AppConfig {
 		//AuthorizationKey:     "<required from AWS to UCS>",
 		AutoCommitEnable: true,
 	},
+		//TODO get this from file so that it doesn't matter that it's in git
 		SlackURL: "https://hooks.slack.com/services/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"}
 	log.Infof("config=%v", appConfig)
 
