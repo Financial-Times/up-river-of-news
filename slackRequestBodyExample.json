@@ -1,0 +1,24 @@
+{
+  "channel": "@sarah.wells",
+  "username": "UPP publication event",
+  "text": "An article has been published. <http://spyglass.ft.com/view/12345?env=prod|See it on Spyglass>",
+  "icon_emoji": ":newspaper:",
+  "attachments":[
+      {
+         "fallback":"Published date=14-02-2016, TransactionID=tid_54321",
+         "color":"good",
+         "fields":[
+            {
+               "title":"PublishedDate",
+               "value":"14-02-2016",
+               "short":true
+            },
+			     {
+               "title":"TransactionId",
+               "value":"tid_54321",
+               "short":true
+            }
+         ]
+      }
+   ]
+ }
